@@ -1,0 +1,57 @@
+nav ul{
+	display: flex;
+	list-style: none;
+	border-bottom: 1px solid #eee;
+	padding: 1rem;
+	box-shadow: 13px 12px 23px #eee;
+}
+nav li{
+	flex: 1;
+}
+
+nav li a{
+	font-family: 'Arial';
+	text-decoration: none;
+	color: black;
+}
+
+.home{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-top: 40vh;
+}
+
+/* section{
+	margin-left: 25%;
+	word-break: break-word;
+	padding-top: 2rem;
+}
+
+section h1{
+	font-family: 'Arial';
+	font-size: 32px;
+}
+
+section h3{
+	font-family: 'Arial';
+}
+
+section p{
+	font-family: 'Arial';
+} */
+
+.container{
+    display: flex;
+    width: 100%;
+	height: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.item{
+	margin-bottom: 10px;
+	 width: 300px;
+	 height: 300px;
+     text-align: center;
+}
